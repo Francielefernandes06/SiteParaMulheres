@@ -1,0 +1,48 @@
+ main {
+     background-color: aqua;
+     width: 100%;
+     height: 100vh;
+     display: flex;
+
+ }
+
+ main .contents-banner {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+ }
+
+ .contents-banner .Title-banner {
+     width: 55%;
+     height: 100vh;
+     display: flex;
+     background-color: var(--primary-color);
+     align-items: center;
+     justify-content: flex-end;
+ }
+
+ .contents-banner .Title-banner h1 {
+    color: var(--text-color);
+     width: 45%;
+     font-size: 2.75rem;
+ }
+ .contents-banner .Title-banner h1 hr{
+    
+ }
+
+ .contents-banner .img-banner {
+     height: 100vh;
+     width: 45%;
+     background: url("https://cf.shopee.com.br/file/1ca19cdcacffa2bca33b96a6d7c48707");
+ }
+ @media (max-width: 48em){
+    .contents-banner .img-banner {
+        display: none;
+    } 
+    .contents-banner .Title-banner {
+        width: 100%;
+        justify-content: center;
+    }
+ }
