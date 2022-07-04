@@ -16,7 +16,8 @@ body {
     flex-direction: column;
     font-family: 'karla', sans-serif;
     position: relative;
-    c
+    align-items: center;
+   
 } 
 
 a{
