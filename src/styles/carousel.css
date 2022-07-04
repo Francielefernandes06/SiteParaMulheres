@@ -1,0 +1,25 @@
+#carousel{
+    width: 100vh;
+}
+#items{
+    height: 93vh;
+    
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+}
+.item{
+    flex: none;
+
+    width: 100%;
+    height: 100%;
+    scroll-snap-align:start;
+
+}
+img{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
