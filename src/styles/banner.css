@@ -39,7 +39,7 @@
  }
  @media (max-width: 48em){
     main{
-        width: 100vh;
+        width: 100%;
     }
     .contents-banner .img-banner {
         display: none;
