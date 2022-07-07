@@ -11,6 +11,7 @@ footer p{
     transform: rotate(270deg);
     margin-block: auto;
     margin-right: -2rem;
+    margin-top: 3rem;
 }
 .rede-social{
     display: flex;
@@ -26,13 +27,22 @@ footer p{
     color: var(--text-color);
     
 }
+.list-footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
 .list-footer li, a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     line-height: 1.5rem;
     font-size: 1rem;
     font-weight: 700;
 }
 .list-footer img{
-    width: 15%;
+    width: 2rem;
 }
 .cartao li{
     display: flex;
@@ -40,6 +50,10 @@ footer p{
 }
 .content-footer{
     display: flex;
+    display: flex;
+    height: 10vh;
+    /* margin-bottom: 3rem; */
+    margin-top: 8rem;
 }
 
 .content-footer h2{
@@ -60,6 +74,7 @@ footer p{
     footer p{
         transform: none;
         margin-right: 0;
+        margin-top: 0rem;
     }
     ul{
         text-align: center;
@@ -69,6 +84,7 @@ footer p{
         justify-content: center;
         align-items: center;
         gap: 1rem;
+        margin-top: 0rem;
     }
     .content-footer h2{
         font-size: 1.5rem;
