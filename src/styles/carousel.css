@@ -24,3 +24,8 @@
     object-fit: cover;
     margin-top: 2rem;
 }
+@media (max-width: 768px){
+    #carousel{
+        width: 100%;
+    } 
+}

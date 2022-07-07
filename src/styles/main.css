@@ -7,6 +7,7 @@
 :root {
     --primary-color: #ea7a86;
     --secundary-color: #feb4cb;
+    --background-color-footer: #901742;
     --text-color: #FFF;
 }
 
@@ -26,15 +27,20 @@ a{
    
 }
 li{
-    color: black;
+    color: var(--text-color);
+    list-style: none;
 }
 ul{
-    color: black;
+    color: var(--text-color);
 }
+
 
 
 h1 {
     text-align: center;
+}
+h2{
+    color:var(--text-color);
 }
 
 p {
